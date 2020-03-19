@@ -1,0 +1,21 @@
+{
+  "name": "react-webpack",
+  "version": "1.0.0",
+  "description": "Simple react app starter with webpack and babel for transpilation",
+  "main": "./src/index.js",
+  "scripts": {
+    "start": "webpack --watch --mode=development"
+  },
+  "author": "Sarah Jiang",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.8.7",
+    "@babel/preset-env": "^7.8.7",
+    "@babel/preset-react": "^7.8.3",
+    "babel-loader": "^8.0.6",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "webpack": "^4.42.0",
+    "webpack-cli": "^3.3.11"
+  }
+}
