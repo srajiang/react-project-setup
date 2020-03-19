@@ -12,7 +12,7 @@
 ### Other Resources: 
   * [Webpack Documentation](https://webpack.js.org/concepts/)
 
-### Webpack config file
+### Webpack.config.js config file
 
 ``` 
 const path = require('path');  // node module for accessing file paths
