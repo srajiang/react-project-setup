@@ -1,0 +1,21 @@
+{
+  "name": "react-redux-webpack",
+  "version": "1.0.0",
+  "description": "Simple starter pack for a react redux app with webpack configuration",
+  "main": "./src/index.js",
+  "scripts": {
+    "start": "webpack --watch --mode=development"
+  },
+  "author": "Sarah Jiang",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.0",
+    "@babel/preset-react": "^7.9.1",
+    "babel-loader": "^8.1.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "webpack": "^4.42.0",
+    "webpack-cli": "^3.3.11"
+  }
+}
