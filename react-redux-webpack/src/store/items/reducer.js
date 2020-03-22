@@ -1,15 +1,15 @@
-import { RECEIVE_TODOS } from './actions';
+import { RECEIVE_ITEMS } from './actions';
 
-const TodoReducer = (state = {}, action) => {
+const ItemsReducer = (state = {}, action) => {
   Object.freeze(state);
 
   switch (action.type) {
-    case RECEIVE_TODOS:
-      return Object.assign({}, state, action.todos);
+    case RECEIVE_ITEMS:
+      return Object.assign({}, state, action.items);
     default:
       return state;
   }
 
 }
 
-export default TodoReducer;
+export default ItemsReducer;
