@@ -2,8 +2,10 @@
 
 ### Simple starter setups for 
   * A React app w/ webpack
+  * A React Redux app w/ webpack
   * A React app using react-scripts
-  
+  * A React app using react-scripts with Axios externalAPI util
+
 ### Notes
   * `npm run start`
   * `npm i` - to install dependencies
