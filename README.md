@@ -2,7 +2,7 @@
 
 ### Simple starter setups for 
   * A React app w/ webpack
-  * A React Redux app w/ webpack
+  * A React Redux app w/ webpack (using ducks component structure)
   * A React app using react-scripts
   * A React app using react-scripts with Axios externalAPI util
 
