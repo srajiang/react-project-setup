@@ -1,4 +1,4 @@
-# react-project-setup
+# react-project-setups
 
 ### Simple starter setups for 
   * A React app w/ webpack
